@@ -12,7 +12,7 @@ from fastai.vision import *
 export_file_url = 'https://www.dropbox.com/s/9t2o882799m7ygl/bridges.pkl?dl=1'
 export_file_name = 'bridges.pkl'
 
-classes = ["Brooklyn Bridge", "Verrazzano Narrows Bridge", "George Washington Bridge", "Queensboro Bridge", "Manhattan Bridge", "Williamsburg Bridge", "Robert F. Kennedy_Triborough Bridge", "Kosciuszko Bridge", "Henry Hudson Bridge", "Bronx Whitestone Bridge", "Throgs Neck Bridge" ]]
+classes = ["Brooklyn Bridge", "Verrazzano Narrows Bridge", "George Washington Bridge", "Queensboro Bridge", "Manhattan Bridge", "Williamsburg Bridge", "Robert F. Kennedy_Triborough Bridge", "Kosciuszko Bridge", "Henry Hudson Bridge", "Bronx Whitestone Bridge", "Throgs Neck Bridge"]
 path = Path(__file__).parent
 
 app = Starlette()
